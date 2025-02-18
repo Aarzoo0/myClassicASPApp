@@ -64,8 +64,8 @@ End If
                     <td><%= rs("Email") %></td>
                     <td><%= rs("Phone") %></td>
                     <td>
-                        <a href="update_user.asp?id=<%= rs("UserID") %>" class="btn btn-primary">Edit</a> | 
-                        <a href="delete_user.asp?id=<%= rs("UserID") %>" class="btn btn-secondary">Delete</a>
+                        <a href="UpdateUser.asp?id=<%= rs("UserID") %>" class="btn btn-primary">Edit</a> | 
+                        <a href="DeleteUser.asp?id=<%= rs("UserID") %>" class="btn btn-secondary">Delete</a>
                     </td>
                 </tr>
                 <%
@@ -75,7 +75,7 @@ End If
             </tbody>
         </table>
         <br>
-        <a href="add_user.asp" class="btn btn-primary">Add New User</a>
+        <a href="AddUser.asp" class="btn btn-primary">Add New User</a>
     </div>
 </body>
 </html>
