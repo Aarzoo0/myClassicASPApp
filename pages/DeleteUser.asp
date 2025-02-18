@@ -15,5 +15,5 @@ cmd.Parameters.Append cmd.CreateParameter(, 3, 1, , userid)  ' 3 is adInteger
 cmd.Execute
 
 ' Redirect to user list
-Response.Redirect "list_user.asp"
+Response.Redirect "ListUser.asp"
 %>
