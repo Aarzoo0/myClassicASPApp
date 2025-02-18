@@ -20,8 +20,8 @@
         </section>
 
         <section class="actions">
-            <a href="pages/list_user.asp" class="btn btn-primary">View Users</a>
-            <a href="pages/add_user.asp" class="btn btn-secondary" onclick="return confirmNewUser()">NEW USER</a>
+            <a href="pages/ListUser.asp" class="btn btn-primary">View Users</a>
+            <a href="pages/AddUser.asp" class="btn btn-secondary" onclick="return confirmNewUser()">NEW USER</a>
         </section>
     </div>
 </body>
