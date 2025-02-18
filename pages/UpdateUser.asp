@@ -62,8 +62,8 @@ If Request.ServerVariables("REQUEST_METHOD") = "POST" Then
     cmd.Parameters.Append cmd.CreateParameter(, 8, 1, 20, phone)
     cmd.Parameters.Append cmd.CreateParameter(, 3, 1, , userid)
     
-    cmd.Execute
-    Response.Redirect "list_user.asp"
+    cmd.Execut
+    Response.Redirect "ListUser.asp"
 End If
 
 rs.Close
